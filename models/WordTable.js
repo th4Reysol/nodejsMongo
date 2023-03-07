@@ -15,4 +15,4 @@ const WordSchema = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model("WordTable", WordSchema);
+module.exports = mongoose.model("wordtables", WordSchema);
